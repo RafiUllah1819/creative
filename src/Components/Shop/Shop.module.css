@@ -1,0 +1,47 @@
+.Container{
+    max-width: 1370px;
+    margin: 0 auto;
+}
+.Shop{
+    background-image: url('../assets/images/shop-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 124px 0;
+    position: relative;
+}
+.Shop  h2{
+    font-size: 62px;
+    font-family: 'Cinzel';
+    color:#fff ;
+    line-height: 68px;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    font-weight: 400;
+}
+.Shop  h3{
+    font-size: 35px;
+    font-family: 'Oswald';
+    color:#fff ;
+    line-height: 41px;
+    font-weight: 300;
+    margin-bottom: 81px;
+}
+.Shop  a{
+    font-size: 30px;
+    font-family: 'Oswald';
+    color:#fff ;
+    line-height: 36px;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 15px 192px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    transition: all ease-in-out .5s;
+    text-decoration: none;
+}
+.Shop  a:hover{
+    background-color: #fff;
+    color: #000;
+}

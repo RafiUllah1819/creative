@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  box-sizing: border-box;
+ scroll-behavior: smooth;
+ padding: 0;
+ margin: 0;
+}
+body{
+ padding: 0;
+ margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,a{
+ padding: 0;
+ margin: 0;
+}
+li{
+ list-style-type: none;
+
+}
+a{
+ text-decoration: none;
+}
+
+
+li:hover{
+ text-decoration: none;
+}
+a:hover{
+ text-decoration: none;
+}
+.container{
+  max-width: 1370px;
+  margin: 0 auto;
+}
+
+/* header css start here */
+.HeaderMain{
+  padding-top: 26px;
+}
+/* header css end here */

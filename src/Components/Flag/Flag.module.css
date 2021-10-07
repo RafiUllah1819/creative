@@ -1,0 +1,43 @@
+.Container{
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+.Flag{padding: 54px 0 38px 0;}
+.Flag h2{
+    font-size: 40px;
+    font-family: 'Cinzel';
+    line-height: 46px;
+    color: #000;
+    margin-bottom: 28px;
+}
+.Flag p{
+    font-size: 28px;
+    font-family: 'Oswald';;
+    line-height: 34px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 45px;
+    max-width: 1034px;
+}
+.Flag a{
+    font-size: 30px;
+    font-family: 'Oswald';
+    color:#000 ;
+    line-height: 36px;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 14px 280px;
+    border-radius: 14px;
+    border: 3px solid #000;
+    text-decoration: none;
+    transition: all ease-in-out .5s;
+}
+.Flag a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.Flag .FlagRight{
+    max-width: 240px;
+}

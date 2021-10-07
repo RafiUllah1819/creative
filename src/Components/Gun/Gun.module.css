@@ -1,0 +1,98 @@
+.Container{
+    max-width: 1370px;
+    margin: 0 auto;
+  }
+
+.Gun .GunTop{
+    padding: 32px 0 32px 274px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.Gun .GunTop h2{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #3c3c3c ;
+    font-family: 'Oswald';
+    max-width: 1041px;
+   
+}
+.Gun .GunMid{
+    background-image: url('../assets/images/bullet-bg-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 63px 0 33px;
+}
+.Gun .GunInfo{
+    padding-bottom: 82px;
+}
+.Gun .GunLeft{
+    max-width: 867px;
+}
+.Gun .GunLeft h3{
+    font-size: 43px;
+    color: #fff;
+    font-family: 'Cinzel';
+    line-height: 49px;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+.Gun .GunLeft p{
+    font-size: 33px;
+    color: #fff;
+    font-family: 'Oswald';
+    line-height: 39px;
+    font-weight: 200;
+    font-style: italic;
+}
+.Gun .GunRight{
+    margin-top: -180px;
+}
+.Gun .GunRight .GunImg{
+    max-width: 72px;
+    margin-right: 10px;
+}
+.Gun .GunRight .GunImg img{
+    width: 100%;
+}
+.Gun .CardSection{
+    justify-content: space-between;
+}
+.Gun .CardSection .Card{
+    border-radius: 15px;
+    width: 32%;
+}
+.Gun .Card .CardBody{
+    padding: 21px 12px 11px 11px;
+}
+.Gun .CardSection .Card h3{
+    font-size: 44px;
+    font-family: 'Cinzel';
+    color:#000 ;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+.Gun .CardSection .Card .CardImg{
+    margin-bottom: 18px;
+    min-height: 108px;
+}
+.Gun .CardSection .Card a{
+    font-size: 30px;
+    font-family: 'Oswald';
+    color:#fff ;
+    line-height: 36px;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #000;
+    padding: 17px 29px;
+    border-radius: 10px;
+    transition: all ease-in-out .5s;
+    width: 343px;
+    text-decoration: none;
+}
+.Gun .CardSection .Card a:hover{
+    background-color:#fd3131 ;
+}

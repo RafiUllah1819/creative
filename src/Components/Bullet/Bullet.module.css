@@ -1,0 +1,68 @@
+.Container{
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+.Bullet{
+    background-image: url('../assets/images/bullet-bg-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 41px 0 60px 0 ;
+    text-align: center;
+}
+
+.BulletWrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Bullet  h2{
+    font-size: 44px;
+    font-family: 'Cinzel';
+    color:#fff ;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 39px;
+    font-weight: 400;
+}
+.Bullet .Card{
+    position: relative;
+    border-radius: 14px;
+}
+.Bullet .CardBody{
+    padding: 22px 12px 14px;
+}
+.Bullet .Card  h3{
+    font-size: 43px;
+    font-family: 'Cinzel';
+    color:#000 ;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: right;
+    margin:0  30px 25px 0;
+}
+.Bullet  .Card  a{
+    font-size: 30px;
+    font-family: 'Oswald';
+    color:#fff ;
+    line-height: 36px;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 15px 26px 6px 79px;
+    border-radius: 14px;
+    border: 3px solid #fff;
+    background-color: #000;
+    transition: all ease-in-out .5s;
+    text-decoration: none;
+}
+.Bullet .Card a:hover{
+    background-color:#fd3131 ;
+}
+
+.Bullet .Card .CardImg{
+    max-width: 49px; 
+    margin: 0 auto; 
+    position: absolute;
+    left: 34px;
+    top: 35px;
+}

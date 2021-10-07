@@ -1,0 +1,34 @@
+.Container{
+    max-width: 1370px;
+    margin: 0 auto;
+  }
+
+header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;    
+}
+
+.NavLink{
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Oswald';
+    line-height: 34px;
+    color: #fff;
+    padding: 0;
+    margin: 0 20px;
+    transition: all ease-in-out .5s;
+    text-decoration: none;
+}
+.NavBrand{
+    max-width: 249px;
+    position: absolute;
+    top: 20px;
+}
+.NavBrand img{
+    width: 100%;
+}
+.NavbarNav{
+    padding-top: 100px;
+}
